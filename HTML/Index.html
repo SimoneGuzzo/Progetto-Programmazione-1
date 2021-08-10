@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<title>Simone Guzzo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Georgia">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Georgia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Georgia", sans-serif}
+.w3-navbar,h1,button {font-family: "Georgia", sans-serif}
+.fa-cube {font-size:200px}
+.fa-music {font-size:200px}
+</style>
+<body>
+	
+	<!-- Navbar -->
+	<div class="w3-top">
+		<ul class="w3-navbar w3-blue w3-card-2 w3-left-align w3-large">
+			<li><a href="Index.html" class="w3-padding-large w3-white">Home</a></li>
+			<li class="w3-hide-small"><a href="Quadrati Magici.html" class="w3-padding-large w3-hover-white">Quadrati Magici</a></li>
+			<li class="w3-hide-small"><a href="Gestione Dischi.html" class="w3-padding-large w3-hover-white">Gestione Dischi</a></li>
+		</ul>
+	
+		<!-- Navbar on small screens -->
+		<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+			<ul class="w3-navbar w3-left-align w3-large w3-black">
+				<li><a class="w3-padding-large" href="Quadrati Magici">Quadrati Magici</a></li>
+				<li><a class="w3-padding-large" href="Gestione dischi">Gestione dischi</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Header -->
+	<header class="w3-container w3-blue w3-center w3-padding-128">		<!-- spazio dal bordo,verde,centrato,gran -->
+		<h1 class="w3-margin w3-jumbo">Progetto Programmazione I</h1>
+		<h1><p class="w3-xlarge">Simone Guzzo<br></h1>
+		Matricola:	 0124/001903<br><br>
+	</header>
+	
+	<!-- First Grid -->
+	<div class="w3-row-padding w3-padding-64 w3-container">
+		<div class="w3-content">
+			<div class="w3-third w3-center">
+				<i class="fa fa-cube w3-padding-64 w3-text-blue w3-margin-right"></i>
+			</div>
+			<div class="w3-twothird">	<!-- occupa 2/3 dello schermo ed -->
+				<h1>Quadrati Magici</h1>
+				<h6 class="w3-padding-32">Si vuole implementare un programma per la simulazione del gioco del quadrato magico. 
+				<br>Un quadrato è definito magico se la somma di ogni riga, ogni colonna e ogni diagonale è sempre lo stesso numero (costante magica). 
+				<br>Ad esempio usando gli interi 1,2, …, 9 il seguente è un quadrato magico con somma uguale a 15:
+					<div class= "w3-center">
+						<br><img src="../HTML/images/griglia.png" class="w3-border" style="padding:4px;width:50%">
+					</div>		
+					<br>Sviluppare un programma che date le dimensioni del quadrato n x n e numeri interi da 1 a n^2 verifichi se la matrice è un quadrato magico. Le matrici vengono generate con numeri casuali. Effettuare ogni test per 1000 volte visualizzando la percentuale di successi.
+					<br>Fare almeno 3 simulazioni variando le dimensioni del quadrato.
+				</h6>
+			</div>
+	</div>
+	</div>
+	
+	<!-- Second Grid -->
+	<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+		<div class="w3-content">	<!-- Contenitore per contenuto centrato a dimensione fissa -->
+			<div class="w3-third w3-center">	<!-- occupa 1/3 dello schermo ed è centrato-->
+				<i class="fa fa-music w3-padding-64 w3-text-blue w3-margin-right"></i>
+			</div>
+			<div class="w3-twothird">	<!-- occupa 2/3 dello schermo ed -->
+				<h1>Gestione Dischi</h1>
+				<h5 class="w3-padding-32">Si supponga di voler gestire un archivio di dischi. Supponiamo di avere n categorie musicali identificate da un codice numerico e dal nome del genere (jazz, rock, punk, ecc..) e di disporre di possibili dischi identificati da un titolo, autore e prezzo. 
+				<br>Per ogni categoria è possibile inserire fino a m prodotti.
+				<br>Gestire l’archivio in modo tale che l’utente possa
+					<br>&nbsp&nbsp&nbsp•&nbsp Data una categoria inserire un nuovo disco se è possibile. 
+					<br>&nbsp&nbsp&nbsp&nbsp&nbsp Considerare le posizioni dei prodotti eventualmente venduti.
+					<br>&nbsp&nbsp&nbsp•&nbsp Dato solo il titolo eliminare un prodotto.
+					<br>&nbsp&nbsp&nbsp•&nbsp Data le categoria restituire il titolo del disco con prezzo minore (usare un algoritmo divide-et-impera ricorsivo).
+					<br>Implementare l’algoritmo per la simulazione per la gestione dei dischi. Effettuare e visualizzare almeno un test per ognuna delle opzioni richieste dall’utente.
+				</h5>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-container w3-black w3-center w3-opacity w3-padding-60">
+		<h1 class="w3-margin w3-xlarge"><p>Progetto creato da Simone Guzzo </p></h1>
+	</div>
+	
+</body>
+{</html>

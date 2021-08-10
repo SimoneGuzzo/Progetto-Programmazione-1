@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<title>Simone Guzzo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Georgia", sans-serif}
+.w3-navbar,h1,button {font-family: "Georgia", sans-serif}
+ .fa-cube {font-size:200px}
+</style>
+<body>
+	
+	<!-- Navbar -->
+	<div class="w3-top">
+	<ul class="w3-navbar w3-blue w3-card-2 w3-left-align w3-large">
+		<li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+		<a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+		</li>
+		<li><a href="Index.html" class="w3-padding-large w3-hover-white">Home</a></li>
+		<li class="w3-hide-small"><a href="Quadrati Magici.html" class="w3-padding-large w3-white">Quadrati Magici</a></li>
+		<li class="w3-hide-small"><a href="Gestione Dischi.html" class="w3-padding-large w3-hover-white">Gestione Dischi</a></li>
+	</ul>
+	
+	<!-- Navbar on small screens -->
+	<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+		<ul class="w3-navbar w3-left-align w3-large w3-black">
+		<li><a class="w3-padding-large" href="Quadrati Magici">Quadrati Magici</a></li>
+		<li><a class="w3-padding-large" href="Gestione Dischi">Gestione Dischi</a></li>
+		
+		</ul>
+	</div>
+	</div>
+	
+	<!-- Header -->
+	<header class="w3-container w3-blue w3-center w3-padding-128">
+	<h1 class="w3-margin w3-jumbo">Progetto Programmazione I</h1>
+	<h1><p class="w3-xlarge">Simone Guzzo <br></h1>
+		Matricola:	0124/001903<br><br>
+	</header>
+	
+	<!-- First Grid -->
+	<div class="w3-row-padding w3-padding-64 w3-container">
+	<div class="w3-content">
+		<div class="w3-third w3-center">
+				<i class="fa fa-cube w3-padding-64 w3-text-blue w3-margin-right"></i>
+			</div>
+			<div class="w3-twothird">
+		<h1>Quadrati Magici </h1>
+		<h6 class="w3-padding-32">L'algoritmo del quadrato magico viene sviluppato seguendo le regole imposte dalla traccia.  
+				<br>All'avvio il programma chiede la dimensione per sviluppare il quadrato.
+				<br>Il quadrato ha dimensione n x n.	
+				<br>Una volta inserita la dimensione il programma genere 1000 matrici.
+				<br>I numeri all'interno della matrice vengono generati da un random. Il random genera numeri interi da 1 a n^2.
+				<br>Il quadrao diventa magico se la somma di ogni riga, ogni colonna e ogni diagonale è sempre lo stesso numero.
+				<br>Ogni somma viene calcolata in due cicli For annidati quindi due indici di interazione: i e j.
+				<br>Una volta calcolate le somme bisogna verificare che tutte siano uguale. Il confronto viene fatto in un If.
+				<br>Se tutte le somme sono uguali il quadrati è magico.
+		</h6>
+		</div>
+	
+	</div>
+	</div>
+	
+	
+	<!------Dichiarazione variabili e inserimento dimensione matrice------>	
+		<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+			<h1 class="w3-margin w3-xlarge"><p>Dichiarazione variabili e inserimento dimensione matrice</p></h1>
+		</div>
+		<div class= "w3-center">
+			<a target="_blank" href="../HTML/images/Quadrati Magici/codice/main.png">
+				<br><img src="../HTML/images/Quadrati Magici/codice/main.png" class="w3-border" style="padding:2px;width:50%">
+			</a> <p>Clicca per ingrandire!</p>
+		</div>
+		
+	<!------Randomizzazione------>	
+	<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+			<h1 class="w3-margin w3-xlarge"><p>Randomizzazione</p></h1>
+		</div>
+		<div class= "w3-center">
+			<a target="_blank" href="../HTML/images/Quadrati Magici/codice/random.png">
+				<br><img src="../HTML/images/Quadrati Magici/codice/random.png" class="w3-border" style="padding:2px;width:50%">
+			</a> <p>Clicca per ingrandire!</p>
+		</div>
+	
+	<!------Somma di ogni riga------>	
+		<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+			<h1 class="w3-margin w3-xlarge"><p>Somma di ogni riga</p></h1>
+		</div>
+		<div class= "w3-center">
+			<a target="_blank" href="../HTML/images/Quadrati Magici/codice/sommariga.png">
+				<br><img src="../HTML/images/Quadrati Magici/codice/sommariga.png" class="w3-border" style="padding:2px;width:50%">
+			</a> <p>Clicca per ingrandire!</p>
+		</div>
+	
+	<!------Somma di ogni colonna------>	
+		<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+			<h1 class="w3-margin w3-xlarge"><p>Somma di ogni colonna</p></h1>
+		</div>
+		<div class= "w3-center">
+			<a target="_blank" href="../HTML/images/Quadrati Magici/codice/sommacolonna.png">
+				<br><img src="../HTML/images/Quadrati Magici/codice/sommacolonna.png" class="w3-border" style="padding:2px;width:50%">
+			</a> <p>Clicca per ingrandire!</p>
+		</div>
+		
+	<!------Somma diagonale sinistra------>	
+		<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+			<h1 class="w3-margin w3-xlarge"><p>Somma diagonale sinistra</p></h1>
+		</div>
+		<div class= "w3-center">
+			<a target="_blank" href="../HTML/images/Quadrati Magici/codice/sommasx.png">
+				<br><img src="../HTML/images/Quadrati Magici/codice/sommasx.png" class="w3-border" style="padding:2px;width:50%">
+			</a> <p>Clicca per ingrandire!</p>
+		</div>
+		
+	<!------Somma diagonale destra------>	
+	<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+		<h1 class="w3-margin w3-xlarge"><p>Somma diagonale destra</p></h1>
+	</div>
+	<div class= "w3-center">
+		<a target="_blank" href="../HTML/images/Quadrati Magici/codice/sommadx.png">
+			<br><img src="../HTML/images/Quadrati Magici/codice/sommadx.png" class="w3-border" style="padding:2px;width:50%">
+		</a> <p>Clicca per ingrandire!</p>
+	</div>
+
+	<!------Verifica che il quadrato sia magico------>	
+	<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+		<h1 class="w3-margin w3-xlarge"><p>Verificare che il quadrato sia magico</p></h1>
+	</div>
+	<div class= "w3-center">
+		<a target="_blank" href="../HTML/images/Quadrati Magici/codice/if.png">
+			<br><img src="../HTML/images/Quadrati Magici/codice/if.png" class="w3-border" style="padding:2px;width:50%">
+		</a> <p>Clicca per ingrandire!</p>
+	</div>	
+
+	<!------Calcolo percentuale successi------>	
+	<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+		<h1 class="w3-margin w3-xlarge"><p>Calcolo percentuale successi</p></h1>
+	</div>
+	<div class= "w3-center">
+		<a target="_blank" href="../HTML/images/Quadrati Magici/codice/perc.png">
+			<br><img src="../HTML/images/Quadrati Magici/codice/perc.png" class="w3-border" style="padding:2px;width:50%">
+		</a> <p>Clicca per ingrandire!</p>
+	</div>
+	
+	<!------Esecuzioni del programma------>	
+	<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+		<h1 class="w3-margin w3-xlarge"><p>Esecuzioni del programma</p></h1>
+	</div>
+	<div class= "w3-center">
+		<a target="_blank" href="../HTML/images/Quadrati Magici/test/inizio2.png">
+			<br><img src="../HTML/images/Quadrati Magici/test/inizio2.png" class="w3-border" style="padding:2px;width:50%">
+		</a> <p>Test A1: Dimensione matrice 2x2. <br>Clicca per ingrandire!</p>
+	</div>
+	
+	<div class= "w3-center">
+		<a target="_blank" href="../HTML/images/Quadrati Magici/test/fine2.png">
+			<br><img src="../HTML/images/Quadrati Magici/test/fine2.png" class="w3-border" style="padding:2px;width:50%">
+		</a> <p>Test A2: Quadrati magici trovati. <br>Clicca per ingrandire!</p>
+	</div>
+	
+	<div class= "w3-center">
+		<a target="_blank" href="../HTML/images/Quadrati Magici/test/inizio3.png">
+			<br><img src="../HTML/images/Quadrati Magici/test/inizio3.png" class="w3-border" style="padding:2px;width:50%">
+		</a> <p>Test B1: Dimensione matrice 3x3. <br>Clicca per ingrandire!</p>
+	</div>
+	
+	<div class= "w3-center">
+		<a target="_blank" href="../HTML/images/Quadrati Magici/test/fine3.png">
+			<br><img src="../HTML/images/Quadrati Magici/test/fine3.png" class="w3-border" style="padding:2px;width:50%">
+		</a> <p>Test B2: Quadrati magici trovati. <br>Clicca per ingrandire!</p>
+	</div>
+	
+	<div class= "w3-center">
+		<a target="_blank" href="../HTML/images/Quadrati Magici/test/inizio4.png">
+			<br><img src="../HTML/images/Quadrati Magici/test/inizio4.png" class="w3-border" style="padding:2px;width:50%">
+		</a> <p>Test C1: Dimensione matrice 4x4. <br>Clicca per ingrandire!</p>
+	</div>
+	
+	<div class= "w3-center">
+		<a target="_blank" href="../HTML/images/Quadrati Magici/test/fine4.png">
+			<br><img src="../HTML/images/Quadrati Magici/test/fine4.png" class="w3-border" style="padding:2px;width:50%">
+		</a> <p>Test C2: Quadrati magici trovati. <br>Clicca per ingrandire!</p>
+	</div>
+		
+</body>
+{</html>
